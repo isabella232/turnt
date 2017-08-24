@@ -85,7 +85,7 @@ using [Gox][]. It's simple to use:
 
 ```bash
 $ go get github.com/mitchellh/gox
-$ gox
+$ gox -output "dist/{{.Dir}}_{{.OS}}_{{.Arch}}"
 
 Number of parallel builds: 7
 
